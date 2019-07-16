@@ -148,8 +148,8 @@ namespace tracking_student_exercises
             }
 
             //How many students in each cohort?
-            Console.WriteLine($"Cohort 32 has {cohort32.StudentList.Count()} students");
-            Console.WriteLine($"Cohort 33 has {cohort33.StudentList.Count()} students");
+            Console.WriteLine($"Cohort 32 has {cohort32.StudentList.Count()} students enrolled");
+            Console.WriteLine($"Cohort 33 has {cohort33.StudentList.Count()} students enrolled");
 
         }
     }
