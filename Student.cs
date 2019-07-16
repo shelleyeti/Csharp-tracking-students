@@ -6,9 +6,9 @@ namespace tracking_student_exercises
     public class Student
     {
         private List<Exercise> _exerciseList;
-        public string FirstName;
-        public string LastName;
-        public string SlackHandle;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string SlackHandle { get; set; }
         public List<Exercise> ExerciseList
         {
             get

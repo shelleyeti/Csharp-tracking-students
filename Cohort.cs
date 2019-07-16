@@ -10,7 +10,7 @@ namespace tracking_student_exercises
         public bool IsDayTime;
         public int CohortNum;
         public string CohortName;
-        public List<Student> StudnetList
+        public List<Student> StudentList
         {
             get
             {
