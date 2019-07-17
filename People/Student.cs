@@ -1,13 +1,10 @@
-using System;
 using System.Collections.Generic;
 
 namespace tracking_student_exercises
 {
-    public class Student
+    public class Student : People
     {
         private List<Exercise> _exerciseList;
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string SlackHandle { get; set; }
         public List<Exercise> ExerciseList
         {

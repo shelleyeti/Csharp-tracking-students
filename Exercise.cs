@@ -1,5 +1,3 @@
-using System;
-
 namespace tracking_student_exercises
 {
     public class Exercise
