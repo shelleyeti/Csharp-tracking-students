@@ -1,13 +1,10 @@
-using System;
 using System.Collections.Generic;
 
 namespace tracking_student_exercises
 {
-    public class Instructor
+    public class Instructor : People
     {
         private List<Cohort> _cohortList;
-        public string FirstName;
-        public string LastName;
         public string SlackHandle;
         public List<Cohort> CohortList
         {
